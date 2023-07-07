@@ -55,7 +55,7 @@ else {
 
     localStorage.setItem("visitas", contagemIncrementada)
 }
-console.log("visitas: ", visitas);
+console.log("visitas", visitas);
 
 console.log(localStorage.getItem("visitas"))
 contador.innerText = localStorage.getItem("visitas")

@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-  <title>Tech: Mulheres negras</title>
+  <title>Tech: Portifólio Maira Alves</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfólio pessoal das alunas do Minas!">
@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="shortcut icon" href="img/foto-perfil.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="portifolio.js">
 </head>
 <body>
   <header class="header-menu">
@@ -19,7 +20,7 @@
           <a href="#formacao">Formação</a>
         </li>
         <li>
-          <a href="#portfolio">Portfólio</a>
+          <a href="#portfolio">Projetos Pessoais</a>
         </li>
         <li>
           <a href="#contatos">Contatos</a>
@@ -33,9 +34,9 @@
 
       <article class="container subcontainer-principal">
         <div class="contador">
-          <p>Essa página possui</p>
+          <p>Clique na estrelinha se gostou</p>
           <h1 id="count"></h1>
-          <p>visualizações</p>
+          
         </div>
         <br>
         <div>
@@ -47,25 +48,82 @@
         <div>
           <p class="texto-sobre">
 
-            Olá, atualmente estou migrando para a área da tecnologia, mais precisamente programação por meio do projeto Minas Programam, nele estou tendo acesso básico a lógica de programação e diversas linguagens de forma teórica e prática como HTML, CSS e JS, tive contato também com Excalidraw, Figma, Github e UX/UI.
-                 Nessa área finalmente encontrei a minha paixão e apesar da pouca experiência tenho muita facilidade em aprender. <br> 
-                 O meu objetivo é atuar como Frontend e Backend, estou preparada para os novos desafios e oportunidades que estão por vir. <br>  
-                 Busco por uma empresa que me dê a oportunidade de aprender ainda mais sobre e confie em mim para exercer o meu melhor na função. <br> 
-                 Até breve.
+                 Olá, atualmente estou migrando para a área da tecnologia, mais precisamente programação por meio do projeto Minas Programam, nele estou tendo acesso básico a lógica de programação e diversas linguagens de forma teórica e prática como: HTML, CSS e JS, tive contato também com Excalidraw, Figma, Github e UX/UI.
+                 Nessa área finalmente encontrei a minha paixão e apesar da pouca experiência tenho muita facilidade em aprender. 
+                  <br> O meu objetivo é atuar como Frontend e Backend, estou preparada para os novos desafios e oportunidades que estão por vir. 
+                 Busco por uma empresa que me dê a oportunidade de aprender ainda mais sobre e confie em mim para exercer o meu melhor na função. <br> <br>
+                 Até breve. 
           </p>
         </div>
         <button class="btn-like" id="like-project-1">
-          <i class="far fa-heart"></i>
+          <i class="far fa-star"></i>
           <span class="like-count">0</span>
         </button>
       </article>
     </section>
 
-<h4 class="lista-titulo">Mulheres que fazem história</h4>
+        <section id="formacao">
+          <article class="container article-lista">
+            <div>
+              <h3 class="topico-principal">Formação</h3>
+            </div>
+            <div class="lista-item">
+              <ul>
+                <li>
+                  <h4 class="lista-titulo">Curso de Programação</h4>
+                  <a href="https://minasprogramam.com/" target="_blank" class="lista-local">Instuto Minas Programam</a>
+                  <p class="lista-descricao">Curso introdutório à HTML, CSS, Github, UX, Front-end e Back-end</p>
+                </li>
+                <li>
+                  <h4 class="lista-titulo">Gestão em Recursos Humanos</h4>
+                  <p class="lista-descricao">Gradução - Faculdade Anhnaguera </p>
+                </li>
+                <li>
+                  <h4 class="lista-titulo">Ensino Médio Técnico</h4>
+                  <p class="lista-descricao">Etec Profª Drª Doroti Quiomi Kanashiro Toyohara - Ensino Médio integrado ao curso tecnólogo de Eventos</p>
+              </li> 
+              </ul>
+            </div>
+          </article>
+        </section>
+
+<section id="portfolio" class="projetosPessoais">
+  <article class="container">
+    <div>
+      <h3 class="topico-principal">Projetos Pessoais</h3>
+    </div>
+
+    <div class="lista-item">
+      <ul>
+        <li>
+          <p class="lista-subtitulo">Baixa Fidelidade</p>
+          <a href="https://excalidraw.com/#room=936ae236124a35464c96,Xy1texGmEtHywRD5XyX4fw" target="_blank">Protótipo 1</a>
+          <p class="lista-descricao">Protótipo de um aplicativo bancário feito na plataforma Excalidraw.</p>
+        </li>
+        <li>
+          <p class="lista-subtitulo">Média Fidelidade</p>
+          <a href="https://www.figma.com/file/xgkhmknoGixCWzWTHFWWhh/Prot%C3%B3tipo-M%C3%A9dia-Fidelidade?type=design&node-id=314-2&mode=design" target="_blank">Protótipo 2</a>
+          <p class="lista-descricao"> Protótipo de um aplicativo bancário feito na plataforma Figma.</p>
+        </li>
       </ul>
     </div>
-  </footer>
-  <script src="script.js"></script>
+  </article>
+</section>
+</main>
+
+<br>
+
+<footer id="contatos" class="footer">
+<div class="container">
+<ul class="lista-footer">
+<li><i class="fas fa-envelope-square"></i><a href="mailto:amanda.adgti@gmail.com" class="links-footer">mairamesquita@outlook.com</a></li>
+<li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/maira-a-92a5a2137" target="_blank" class="links-footer">LinkedIn</a></li>
+<li><i class="fab fa-github-square"></i><a href="https://github.com/Maira-Alves" target="_blank" class="links-footer">Maira-Alves</a></li>
+</ul>
+</div>
+</footer>
+<script src ="portifolio.js"> </script>
+<script src="style.css"></script>
 </body>
 
 </html>
